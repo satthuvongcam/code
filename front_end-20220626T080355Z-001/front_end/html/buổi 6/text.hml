@@ -1,0 +1,12 @@
+hover                       là 1 sự kiện xảy ra khi đưa con trỏ qua 1 phần tử cụ thể
+
+TH1
+.class:hover {              style chỉ được áp dụng khi con trỏ đi qua class
+    style: attribute;       class vừa kích hoạt sự kiện vừa nhận style
+}
+
+TH2
+.cha:hover con {            style chỉ áp dụng cho thẻ con khi con trỏ đi qua thẻ cha
+    style: attribute;       thẻ có :hover là chìa khóa để kích hoạt sự kiện
+}                           thẻ đứng canh {} sẽ nhận style
+                            chỉ áp dụng được khi có quan hệ cha con

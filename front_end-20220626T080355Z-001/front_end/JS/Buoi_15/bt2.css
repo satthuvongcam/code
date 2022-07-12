@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient( 45deg, rgb(65, 88, 208) 0, rgb(200, 80, 192) 50%, rgb(255, 204, 112) 100% );
+}
+
+.form__login, .form__register {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.form__login-heading, .form__register-heading {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.login__btn, .register__btn {
+    width: 49%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: black;
+    border: 1px solid #ccc;
+    background-color: white;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.login__btn {
+    color: white;
+    background-image: linear-gradient( 45deg, rgb(65, 88, 208) 0, rgb(200, 80, 192) 50%, rgb(255, 204, 112) 100% );
+}
+
+.form__login-input, .form__register-input {
+    margin-bottom: 32px;
+}
+
+.input__user, .input__password {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.form__login-btn, .form__register-btn {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient( 45deg, rgb(65, 88, 208) 0, rgb(200, 80, 192) 50%, rgb(255, 204, 112) 100% );
+}
+
+.todoList {
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.todoList__header {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.todoList__body {
+    padding: 16px;
+}
+
+.todoList__genaral-text {
+    margin: 8px;
+}
+
+.todoList__genaral input, .todoList__footer-total input {
+    width: 100%;
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.todoList__body-service {
+    margin: 12px 0;
+}
+
+#service__input {
+    padding: 4px 8px;
+    width: 100%;
+}
+
+.todoList__footer {
+    padding: 16px;
+}
+
+.todoList__footer button {
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    background-color: brown;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todoList__footer-total {
+    margin-top: 16px;
+}
+
+.sign-out {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+.sign__out-btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}

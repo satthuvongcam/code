@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*  */
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 56px;
+    opacity: 0.75;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav__item {
+    display: inline-block;
+    width: 25%;
+    line-height: 24px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav__item:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.nav:hover {
+    opacity: 1;
+}
+
+.nav__item:last-child:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+}
+
+.banner__img img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.banner__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    letter-spacing: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.banner__text-name {
+    font-size: 64px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.banner__text-desc, .banner__text-time {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+/* Content */
+.content {
+
+}
+
+.content__section {
+    padding: 64px 16px; 
+    color: #757575;
+    background-color: #ffdddd;
+    text-align: center;
+}   
+
+.section__heading {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.content__intro {
+
+}
+
+.intro__img {
+    padding: 0 10px;
+    margin: 32px 0;
+}
+
+.intro__img img {
+    width: 100%;
+    display: block;
+}
+
+.intro__text {
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+    padding: 0 10px;
+    margin: 15px 0 30px 0;
+    color: #000;
+    font-style: italic;
+}
+
+.intro__info {
+    padding: 15px 0;
+}
+
+.intro__info-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.intro__info-link:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.intro__invited {
+    position: relative;
+}
+
+.intro__invited-img img {
+    width: 100%;
+    display: block;
+}
+
+.intro__invited-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.invited-text-heading {
+    font-size: 64px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.invited-text-desc {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.different {
+    background-color: #f2e1e1;
+}
+
+.info__img {
+    margin: 64px 0;
+}
+
+.info__img img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.info__wedding {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wedding__when, .wedding__where {
+    width: 50%;
+}
+
+.wedding__heading {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #000;
+}
+
+.wedding__text {
+    color: #000;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.heading-text {
+    color: #000;
+    font-weight: 400;
+}
+
+.section__text {
+    font-size: 18px;
+    color: #000;
+    margin: 15px 0;
+    letter-spacing: 4px;
+}
+
+.section-btn {
+    display: inline-block;
+    margin: 24px 0;
+    text-align: center;
+}
+
+.section__button {
+    padding: 16px 60px;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    font-size: 24px;
+    opacity: 0.65;
+}
+
+.section__button:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+    opacity: 1;
+}
+
+/* Footer */
+.footer {
+    height: 60px;
+    color: #fff;
+    padding: 16px 0;
+    background-color: #000;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #4CAF50;
+}
+
+/* Modal */
+.modal-container {
+    max-width: 600px;
+    margin-top: 100px;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    display: block;
+    text-align: center;
+    padding: 32px 48px 0 48px;
+    border-bottom: none;
+}
+
+.title__heading {
+    font-size: 36px;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.title__text {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.modal-body {
+    padding: 0 48px;
+}
+
+.body__input input {
+    padding: 8px;
+    width: 100%;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+.body__text {
+    text-align: center;
+}
+
+.body__text p {
+    display: inline-block;
+    margin: 15px 0;
+    font-style: italic;
+    color: #000;
+    background-color: #ccc;
+    font-weight: 200;
+}
+
+.modal-footer {
+    display: block;
+    border-top: none;
+    padding: 0 48px 32px 48px;
+}
+
+.modal-footer-button {
+    display: block;
+}
+
+.modal-footer-button button {
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 0;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.modal-footer-button button:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
+
+.modal-footer-button1 button {
+    background-color: #f44336;
+}
+

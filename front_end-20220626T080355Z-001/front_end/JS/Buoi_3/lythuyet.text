@@ -1,0 +1,58 @@
+if...else
+if(logic điều kiện) {                                   nếu điều kiện đúng thì code true thực thi
+    // code true
+} else {                                                nếu điều kiện sai thì code false thực thi
+    // code false                        
+}
+
+if(logic điều kiện 1) {                                 nếu điều kiện đúng thì code true thực thi
+    // code true
+} else if (điều kiện 2){                                nếu điều kiện 1 và điều kiện 2 đúng thì code 2 thực thi
+    // code 2                       
+} else {                                                nếu điều kiện 1 và điều kiện 2 sai thì code false thực thi
+    // code false
+}
+
+switch...case
+switch (value) {                                        switch lấy value so sánh với các case
+    case value1:                                        nếu value khớp với case thì code của case đó thực thi
+        // code1                                        break để kết thúc hàm điều kiện
+        break                                           switch: từ khóa khai báo
+                                                        case: các trường hợp kiểm tra giá trị
+    case value2:                                        default: thực thi khi không có case nào khớp
+        // code2
+        break
+    
+    default
+        // code default
+}
+
+=================================================================================================================
+while (đk) {                                            nếu đk true thì code thực thi đến khi đk sai thì dừng lại
+    // code                                             
+}
+
+do {                                                    code thực thi trước kiểm tra điều kiện sau
+    // code                                             code thực thi ít nhất 1 lần
+} while (đk)
+
+Lưu ý: vòng lặp thì cần để ý 3 điều kiện
+    start: điểm xuất phát
+    stop: điểm đích
+    speed: tốc chạy và phải hướng về đích
+
+for (start; stop; speed){
+    // code
+}
+
+for (var value of array) {                              array: array muốn duyệt qua
+    // code                                             value: giá trị của phần tử trong array
+}
+
+for (var key in object) {                               object: object muốn duyệt qua
+    // code                                             key: key của phần tử trong object
+}
+
+break                                                   kết thúc vòng lặp, hàm điều kiện
+continue                                                bỏ qua vòng lặp hiện tại và thực thi ngay vòng lặp tiếp theo
+

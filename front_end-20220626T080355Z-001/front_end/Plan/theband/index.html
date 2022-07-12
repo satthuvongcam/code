@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div id="main">
+
+        <!-- Header -->
+        <div class="header" id="header">
+
+            <!-- Begin: Nav -->
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-item-link">Home</a></li>
+                <li class="nav-item"><a href="#band" class="nav-item-link">Band</a></li>
+                <li class="nav-item"><a href="#tour" class="nav-item-link">Tour</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-item-link">Contact</a></li>
+                <li class="nav-item nav-menu">
+                    <a href="#" class="nav-item-link">
+                        More
+                        <i class="fa-solid fa-caret-down nav-item-icon"></i>
+                        <ul class="subnav-list">
+                            <li class="subnav-item">
+                                <a href="#" class="subnav-item-link">Merchandise</a>
+                            </li>
+                            <li class="subnav-item">
+                                <a href="#" class="subnav-item-link">Extras</a>
+                            </li>
+                            <li class="subnav-item">
+                                <a href="#" class="subnav-item-link">Media</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+            <!-- End Nav -->
+
+            <!-- Begin: Search -->
+            <div class="header-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- End: Search -->
+
+            <!-- Search-mobile -->
+            <div class="dropdown header-search-mobile">
+                <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#band">BAND</a></li>
+                    <li><a class="dropdown-item" href="#tour">TOUR</a></li>
+                    <li><a class="dropdown-item" href="#contact">CONTACT</a></li>
+                    <li><a class="dropdown-item" href="#">MORE</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Banner -->
+        <div class="banner">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://www.w3schools.com/w3images/chicago.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://www.w3schools.com/w3images/ny.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://www.w3schools.com/w3images/ny.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="text-banner">
+                <h2 class="banner-heading">Los Angeles</h2>
+                <p class="banner-desc">We had the best time playing at Venice Beach!</p>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Section1 -->
+            <div id="band" class="content-section section1">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-desc">We love music</p>
+
+                <p class="section1-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+
+                <!-- Begin: Member -->
+                <div class="members-list">
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="./assets/img/bandmember.jpg" alt="" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="./assets/img/bandmember.jpg" alt="" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="./assets/img/bandmember.jpg" alt="" class="member-img">
+                    </div>
+                </div>
+                <!-- End: Member -->
+            </div>
+
+        </div>
+
+        <!-- Section -->
+        <div id="tour" class="content-section section2">
+            <h2 class="section-heading">TOUR DATES</h2>
+            <p class="section-desc">Remember to book your tickets!</p>
+            <!-- Ticket -->
+            <div class="ticket">
+                <div class="tickets-list">
+                    <div class="ticket-item">
+                        <div class="ticket-time">September</div>
+                        <div class="ticket-quantity">Sold-out</div>
+                    </div>
+                    <div class="ticket-item">
+                        <div class="ticket-time">October</div>
+                        <div class="ticket-quantity">Sold-out</div>
+                    </div>
+                    <div class="ticket-item ticket-item-quantity">
+                        <div class="ticket-time">November</div>
+                        <div class="ticket-quantity1">3</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place -->
+            <div class="place">
+                <div class="place-list">
+                    <div class="place-item">
+                        <div class="place-item-img">
+                            <img src="./assets/img/newyork.jpg" alt="" class="place-img">
+                        </div>
+                        <div class="place-content">
+                            <h3 class="place-heading">New York</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="place-btn" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Buy tickets
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <div class="place-item-img">
+                            <img src="./assets/img/paris.jpg" alt="" class="place-img">
+                        </div>
+                        <div class="place-content">
+                            <h3 class="place-heading">Paris</h3>
+                            <p class="place-time">Sat 28 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <div class="place-item-img">
+                            <img src="./assets/img/sanfran.jpg" alt="" class="place-img">
+                        </div>
+                        <div class="place-content">
+                            <h3 class="place-heading">San Francisco</h3>
+                            <p class="place-time">Sun 29 Nov 2016</p>
+                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="contact" class="content-section">
+        <h2 class="section-heading">CONTACT</h2>
+        <p class="section-desc">Fan? Drop a note!</p>
+
+        <!-- Contact-section -->
+        <div class="contact">
+            <div class="contact-section">
+                <div class="contact-about">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot contact-item-icon"></i>
+                        <span class="contact-item-text">Chicago, US</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone contact-item-icon"></i>
+                        <span class="contact-item-text">Phone: +00 151515</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope contact-item-icon"></i>
+                        <span class="contact-item-text">Email: mail@mail.com</span>
+                    </div>
+                </div>
+                <div class="contact-user">
+                    <div class="contact-user-info">
+                        <input type="text" class="contact-info-name" placeholder="Name">
+                        <input type="text" class="contact-info-email" placeholder="Email">
+                    </div>
+                    <div class="contact-user-mass">
+                        <input type="text" class="contact-mass-input" placeholder="Message">
+                    </div>
+                    <button class="contact-btn">SEND</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map -->
+    <div class="map">
+        <img src="./assets/img/map.jpg" alt="" class="map-img">
+    </div>
+    </div>
+    <div class="footer">
+        <div class="socials-list">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat-square"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div class="copyright">
+            Powered by
+            <a href="#" class="copyright-link">w3.css</a>
+        </div>
+    </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-container">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    <i class="fa-solid fa-suitcase"></i>
+                    <span>Tickets</span>
+                </h5>
+                <button type="button" class="close-button" data-bs-dismiss="modal"
+                    aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-item">
+                    <div class="item-text">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Tickets, $15 per person</span>
+                    </div>
+                    <div class="modal-item-input">
+                        <input type="text" placeholder="How many?">
+                    </div>
+                </div>
+                <div class="modal-item">
+                    <div class="item-text">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Send To</span>
+                    </div>
+                    <div class="modal-item-input">
+                        <input type="email" placeholder="Enter E-mail">
+                    </div>
+                </div>
+                <button>
+                    Pay
+                    <i class="fa-solid fa-check"></i>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+                    Close
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <span>Need <a href="">help?</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</html>

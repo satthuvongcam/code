@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* .list__user {
+    display: flex;
+    justify-content: space-between;
+} */
+
+body {
+    padding: 32px;
+}

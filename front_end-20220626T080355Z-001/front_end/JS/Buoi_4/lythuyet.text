@@ -1,0 +1,13 @@
+function                                        1 hàm được định nghĩa trước làm 1 chức năng cụ thể
+                                                function thường có đầu vào (input) và đầu ra (output)
+                                                logic của function có thể tái sử dụng
+
+khai báo function
+    function name(input) {                      function là tử khóa khai báo
+        // logic xử lí đầu vào                  logic tự viết theo yêu cầu
+        return output                           return để trả kết quá ra ngoài
+    }
+
+Gọi function
+    name(input)                                 thực thi function
+

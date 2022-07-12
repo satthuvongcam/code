@@ -1,0 +1,57 @@
+
+code viết sau đè code viết trước
+=================================================================
+console.log (data)          hiển thị data dưới terminal
+
+
+
+
+
+
+
+==================================================================
+number
+age = 1
+
+==================================================================
+string
+Lưu ý string phải được bọc trong ngoặc ''
+
+Lưu ý khai báo string bằng ngoặc nào phải kết thúc string bằng ngoặc đó và không trùng với ngoặc nào ở giữa
+
+``                          Khai báo đoạn string phức tạp
+
+`${}`                       Có thể chèn logic bên trong nháy huyền
+
+=========================================================================
+object                      Thông tin chi tiết về 1 đối tượng
+
+var object = {              Các thuộc tính đi theo cặp key: value
+    key1: value1,           Các thuộc tính cách nhau bởi ,
+    key2: value2
+}
+
+object.key                  Truy vấn, ghi đè, thêm mới nd của key trong object
+                            Không thể dùng logic trong truy vấn
+
+object[key]                 Truy vấn, ghi đè, thêm mới nd của key trong object
+                            Có thể dùng logic trong truy vấn
+
+delete object.key           xóa data khỏi object
+
+=================================================================================
+array                                           danh sách
+                                                arr cũng là object
+    var list = ['value1', 'value2',...]
+                                                không còn key nữa, chỉ còn value
+                                                có đánh số thứ tự
+
+.length                                         lấy độ dài, thay đổi độ dài của array
+
+length - 1                                      vị trí của phần tử cuối cùng trong array
+
+Vị trí (index) bắt đầu a[0]
+Thứ tự bắt đầu từ 1 
+VD 1 2 3 4      Thứ tự 3 là 3
+                Vị trí 3 là 4
+

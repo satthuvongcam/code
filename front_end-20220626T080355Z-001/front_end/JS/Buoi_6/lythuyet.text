@@ -1,0 +1,72 @@
+ARRAY METHOD
+push                            thêm phần tử vào cuổi array
+
+pop                             xóa phần tử cuối cùng trong array
+
+unshift                         thêm phần tử vào đầu array
+
+shift                           xóa phần tử đầu tiên trong array
+
+splice(start, deleteCount, new)   
+                                start:          vị trí bắt đầu làm việc
+                                deleteCount     số lượng xóa bắt đầu từ start
+                                new             phần tử chèn thêm bắt đầu từ start                      
+
+...                             spread operator
+                                liệt kê, phân giải các phần tử trong array, object
+                                gộp nhiều array,object với nhau
+
+[...array1,...array2]
+{...object1,...object2}
+
+array.map(function (value, index)) {  
+                                value   giá trị của phần tử trong array
+    //......                    index   vị trí của phần tử đang xét
+    return newValue             map sẽ tạo ra array mới từ array ban đầu
+}                               số lượng phần tử của array đầu ra và array gốc === nhau
+                                map trả ra cái gì thì array đầu ra nhận cái đó
+                                không ảnh hưởng tới data gốc
+
+array.fillter(function (value, index)) {    
+    //......                    value   giá trị của phần tử trong array
+    return true/false           index   vị trí của phần tử đang xét
+                                fillter sẽ tạo ra array mới sau khi lọc 
+}                               bỏ các pt không thỏa mãn
+                                return true: giữ lại phần tử
+                                return false: loại bỏ phần tử
+                                không ảnh hưởng tới data gốc,
+                                không biến đổi giá trị phần tử
+
+array.sort(function(a,b)){      a: after số đứng sau
+    ///                         b: before số đứng trước
+    return -1/1/0               return -1 after đứng trước before
+}                               return 1 after đứng sau before
+                                return 0 giữ nguyên vị trí
+
+reverse()                       đảo ngược array
+
+join(x)                         tạo ra string từ array 
+                                kí tự x sẽ được xen giữa các phần tử trong array
+
+indexOf(value, index)           tìm kiếm vị trí của value trong array
+                                value giá trị cần tìm
+                                index vị trí bắt đầu tìm
+                                trả về vị trí đầu tiên tìm được
+                                không tìm thấy sẽ trả về -1
+
+
+Object.keys(obj)                trả về array chứa các từ khóa của object
+
+findIndex(function(value, index){
+                                tìm kiếm vị trí của value trong array
+    ///                         value giá trị phần tử trong array
+    return true/false           index vị trí bắt đầu tìm
+})                              return true thì trả vị trí vào biến đầu ra
+                                return false tiếp tục tìm kiếm
+                                trả về vị trí đầu tiên tìm được
+                                không tìm thấy sẽ trả về -1
+
+
+
+
+

@@ -1,0 +1,90 @@
+the mo <ten the>
+the dong </ten the>
+
+thẻ đóng, thẻ mở để quy định phạm vi quản lý
+có mỗi thẻ mở chỉ có thể bị thẻ khác quản lý
+
+-----------------------------------------------------------------------
+
+head:                       thiết lập cho giao diện
+
+tittle                      thiết lập tên tab trình duyệt
+
+link favicon                thiết lập logo trên tab trình duyệt
+
+    +link online            copy địa chỉ hình ảnh
+    
+    +link tuyệt đối         link cố định
+                            luôn bắt đầu từ my computer
+    
+    +link tương đối         file nằm ở đâu thì link bắt đầu từ đó
+                            ./ lấy file cùng thư mục
+                            ../ quay lại 1 lv  
+            
+-------------------------------------------------------------------------
+
+body:                       thiết kế giao diện
+
+h                           thẻ tiêu đề
+                            chữ to, đậm
+                            tạo dòng mới, chiểm hết dòng
+
+    p                       hiển thị 1 đoạn văn
+                            tạo dòng mới, chiểm hết dòng
+                            dùng nhiều thẻ p có khoảng cách giữa các đoạn
+
+br                          ngắt dòng
+                            không có khoảng cách
+
+b / i / u                   thẻ viết đậm / nghiêng / gạch chân
+
+các thẻ HTML có tính kế thừa
+     
+attribute                   thuộc tính nằm trong thẻ mở 
+
+span                        thẻ hiển thị text
+                            dùng để gọi tên, chỉnh sửa
+
+img                         thẻ chèn ảnh
+    src                     dẫn link ảnh
+    alt                     mô tả khi ảnh bị lỗi, ảnh không lỗi thì không hiển thị 
+
+a                           thẻ gắn mốc
+                            khi click vào thẻ a thì sẽ đi đến địa chỉ đó
+
+input                       thu thập thông tin user
+
+    type = text             nhận nội dung ngắn trên 1 dòng
+
+    type = password         ẩn nội dung nhập
+
+    type = date             chọn ngày tháng năm
+
+    type = datetime-local   chọn ngày và giờ
+
+    type = file             chọn 1 file để upload
+        thêm multiple       chọn nhiều file
+    
+    type = checkbox         chọn 1 hay nhiều đáp án
+
+    type = radio            chọn 1 đáp án duy nhất nếu cùng name
+
+textarea                    nhập text dài trên nhiều dòng    
+
+select  
+    option                  chọn 1 đáp án duy nhất và có sẵn 1 lựa chọn ban đầu
+                            select là thẻ cha, option là thẻ con
+
+button                      tạo nút bấm
+
+--------------------------------------------------------------------------
+
+table / tr / th / td
+table                       tạo bảng
+tr                          thêm dòng vào bảng
+th                          tạo ô tiêu đề trong bảng
+td                          thêm ô vào bảng
+
+colspan                     gộp ô trên 1 dòng                     
+
+rowspan                     gộp dòng trên 1 cột

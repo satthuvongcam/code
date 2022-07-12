@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bt3.css">
+</head>
+<body>
+    <div class="form__register">
+        <div class="register__heading">User Registration</div>
+        <div class="register__content">
+            <div class="register__content-user register__section">
+                <p>User ID</p>
+                <input type="text" >
+            </div>
+            <div class="register__content-password register__section">
+                <p>Password</p>
+                <input type="password" >
+            </div>
+            <div class="register__content-rePassword register__section">
+                <p>Confirm Password</p>
+                <input type="password" >
+            </div>
+            <div class="register__content-email register__section">
+                <p>Existing E-mail ID</p>
+                <input type="email" pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]">
+            </div>
+            <div class="register__content-reEmail register__section">
+                <p>Confirm Existing E-mail ID</p>
+                <input type="email" >
+            </div>
+            <div class="register__content-btn">
+                <button class="btn__submit" type="submit" onclick="create()">Submit</button>
+                <button class="btn__reset" type="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./bt3.js"></script>
+</html>

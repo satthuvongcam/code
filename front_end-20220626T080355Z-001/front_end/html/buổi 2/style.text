@@ -1,0 +1,87 @@
+Các cách thêm thuộc tính trong HTML
+
+C1: inline style
+    Dùng Atrribute style để xét thuộc tính
+
+    style = "key1: value1; key2: value2"
+
+    key: value
+
+    background                      quy định màu nền
+    color                           quy định màu chữ
+
+    khi set thuộc tính cho thẻ nào thì chỉ mình thẻ đó nhận
+
+C2: internal style
+    Dùng thẻ style để set thuộc tính
+
+    <style>
+        tên thẻ {           thêm style cho tất cả các thẻ cùng tên trên giao diện
+            key: value;
+        }
+
+        .class {            thêm style cho tất cả các thẻ có cùng tên class
+            key: value;
+        }
+
+        #id {               thêm style cho thẻ có id chỉ định
+            key: value;     không được trùng 1 id trên 1 file HTML
+        }
+
+        * {                 thêm style cho tất cả các thẻ trên HTML
+            key: value;
+        }
+    </style>
+
+    Lưu ý: Trỏ càng cụ thể thì ưu tiên càng cao
+
+    Độ ưu tiên: inline style > id > class > tên thẻ > * - reset thuộc tính HTML > inherited
+
+C3: Enternal style
+
+    Thêm style bằng file.class
+    Cú pháp giống internal style
+
+    Lưu ý: cần liên kết HTML với class
+    Dùng thẻ link
+
+
+Style cho text
+background                      quy định màu nền
+
+color                           quy định màu chữ
+
+text-align                      căn lề chữ
+    left                        căn trái
+    right                       căn phải
+    center                      căn giữa
+    justify                     căn đều 2 bên
+
+    Lưu ý: Phải có khoảng trống thừa để căn chỉnh 
+
+font-size                       điều chỉnh cỡ chữ
+
+font-weight                     điều chỉnh chữ đậm, chữ nhạt
+
+font-style                      
+    italic                      chữ nghiêng
+
+text-decoration
+    underline                   gạch dưới
+    overline                    gạch trên
+    line-through                gạch giữa
+
+
+border                          độ dày (line-width) / nét vẽ (line-style) / màu sắc (color)
+
+text-tranform                   kiểu chữ
+    uppercase                   chữ in hoa
+    lowercase                   chữ thường
+    capitalize                  viết hoa chữ cái đầu của mỗi từ
+
+font-family                     đổi font chữ
+
+@font-face (
+    font-family:tên tùy ý;
+    src: url(link)
+)

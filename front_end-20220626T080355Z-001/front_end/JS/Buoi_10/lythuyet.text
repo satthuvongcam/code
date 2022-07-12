@@ -1,0 +1,38 @@
+number, string                  dữ liệu nguyên thủy
+                                lưu giá trị vào biến
+
+object, function                dữ liệu tham chiếu
+                                không lưu giá trị vào biến
+                                lưu địa chỉ data vào biến
+
+=> khi làm việc với array và object thì phải copy ra để xử lý        
+
+JSON.stringify(object)          tạo ra string JSON từ object đầu vào
+JSON.parse(string JSON)         tạo ra object mới dựa trên stringJson đầu vào
+
+===================================================================================
+
+var                 
+
+let                 giống var nhưng chặt chẽ hơn, không cho phép khai trùng biến
+
+const               khai hằng số
+                    => không được phép thay đổi
+                    => lưu ý trường hợp array, object
+
+====================================================================================
+
+scope               phạm vi đọc được giá trị của biến
+
+block Scope         phạm vi truy cập biến bị giới hạn trong block 
+                    block được giới hạn bởi {}
+
+function Scope      biến khai trong function thì chỉ có thể dùng trong function      
+
+global Scope        biến khai báo bên ngoài có thể dùng trên toàn file
+
+=======================================================================================
+hoisting            cơ chế tự động mang khai báo lên đầu file
+                    
+
+let, const không cho phép dùng biến mặc dùng đã hoisting     

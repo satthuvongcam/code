@@ -1,0 +1,54 @@
+DOM             
+                                Document Object Model 
+                                Object Model của file HTML
+                                khi gửi HTML lên trình duyệt tạo ra DOM
+
+window                          object của trình duyệt
+
+Document                        DOM do window tạo ra
+
+=============================================================================
+
+TRUY VẤN
+
+document.querySelector(dk)      trả về thẻ đầu tiên thỏa mãn điều kiện
+
+document.querySelectorAll(dk)   trả về tất cả các thẻ thỏa mãn điều kiện
+
+=====================================================================================
+
+Dom.innerHTML                   truy vấn, ghi đè nội dung giữa thẻ đóng và thẻ mở
+                                có thể biên dịch text thành HTML
+
+Dom.value                       truy vấn, ghi đè nội dung trong input
+
+=======================================================================================
+
+
+getAttribute(key)               truy vấn nội dung attribute key của thẻ chỉ định
+
+setAttribute(key, value)        key     tên attribute cần chỉnh sửa
+                                value   giá trị mới của attribute
+                                chỉnh sửa attribute key thành value
+
+=========================================================================================
+
+Dom.remove()                    xóa DOM đang trỏ
+
+=========================================================================================
+
+B1: tạo Dom ảo 
+
+    createElement(tag)          tạo Dom rỗng
+
+B2: thêm vào giao diện
+
+    Dom.append(Dom ảo)          chèn DOM ảo vừa tạo vào cuối Dom đang trỏ (push)
+
+    Dom.prepend(Dom ảo)         chèn DOM ảo vừa tạo vào đầu Dom đang trỏ (unshift)
+
+
+
+
+
+

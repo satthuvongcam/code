@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .info__wedding {
+        display: block;
+    }
+
+    .wedding__when, .wedding__where {
+        width: 100%;
+    }
+
+    .wedding__when {
+        margin-bottom: 32px;
+    }
+
+    .footer {
+        margin-bottom: 0;
+        line-height: 28px;
+    }
+
+    .modal-container {
+        width: auto;
+        margin: 100px 8px 0 8px;
+    }
+}

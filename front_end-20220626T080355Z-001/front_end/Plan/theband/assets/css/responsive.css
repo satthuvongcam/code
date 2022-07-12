@@ -1,0 +1,112 @@
+/* PC */
+/* @media (min-width: 1024px) {
+
+} */
+
+/* Tablet */
+/* @media (min-width: 740px) and (max-width: 1023px) {
+
+} */
+
+/* Mobile */
+@media (max-width: 768px){
+    
+    .nav-list {
+        display: block;
+    }
+
+    .nav-list .nav-item {
+        display: none;
+    }
+
+    .nav-list .nav-item:first-child {
+        display: block;
+    }
+
+    .nav-menu:hover .subnav-list {
+        display: none;
+    }
+
+    .text-banner {
+        display: none;
+    }
+    
+    .nav-item-icon {
+        display: none;
+    }
+    
+    .header-search {
+        display: none;
+    }
+
+    .header-search-mobile {
+        display: block;
+        line-height: 46px;
+        font-size: 15px;
+    }
+
+    .dropdown-toggle:hover {
+        cursor: pointer;
+        color: #000 !important;
+        background-color: #ccc !important;
+    }
+
+    .members-list {
+        display: block;
+    }
+
+    .member-item {
+        width: 100%;
+    }
+
+    .place-list {
+        display: block;
+    }
+
+    .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .place-btn {
+        padding: 15px 16px;
+        width: 100%;
+    }
+
+    .contact-btn {
+        padding: 15px 16px;
+        width: 100%;
+    }
+
+    .contact-section {
+        display: block;
+    }
+
+    .contact-about {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .contact-user {
+        width: 100%;
+    }
+
+    .contact-user-info {
+        display: block;
+    }
+
+    .contact-info-name {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    .contact-info-email {
+        width: 100%;
+    }
+
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+

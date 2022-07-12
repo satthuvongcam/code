@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Bài 1 */
+.container1 {
+    position: relative;
+    width: 408px;
+    height: 480px;
+    border: 4px solid black;
+    margin-bottom: 50px;
+}
+
+.content1 {
+    position: relative;
+}
+
+.content1 img {
+    height: 400px;
+}
+
+.content1-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 24px;
+    background-color: #fbddb3;
+}
+
+.body1-text1 {
+    font-size: 24px;
+    text-decoration: line-through black;
+}
+
+.body1-text2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 26px;
+    color: red;
+}
+
+/* Bài 2 */
+.container2 {
+    position: relative;
+    width: 240px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.container2 img {
+    width: 240px;
+}
+
+.desc {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.quantity1 {
+    font-size: 20px;
+    color: red;
+    text-decoration: line-through red;
+}
+
+.quantity2 {
+    font-size: 20px;
+    color: red;
+}
+
+.hot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    background-color: red;
+    color: #fff;
+    padding: 4px;
+    border-left: 2px solid green;
+}
+
+.discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    color: #fff;
+    background-color: green;
+}
+
+/* Bài 3 */
+.container3 {
+    display: flex;
+    height: 250px;
+    border-bottom: 4px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.son1 {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+}
+
+.installment {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    background-color: orange;
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading1 {
+    color: blue;
+}
+
+.coat {
+    font-size: 20px;
+    color: red;
+    margin: 0 8px;
+}
+
+.bluetooth {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+}
+
+/* Bài 4 */
+.container4 {
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.Heading {
+    margin-bottom: 8px;
+}
+
+.content4 {
+    display: flex;
+    position: relative;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.content4 img {
+    width: 40px;
+}
+
+.content4-left, .content4-right {
+    margin-top: 8px;
+}
+
+.content4-left {
+    width: 250px;
+}
+
+.text4 {
+    position: absolute;
+    top: 8px;
+    margin-left: 8px;
+}
+
+/* Bài 5 */
+.container5 {
+    position: relative;
+    height: 600px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.nav5 {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.nav-text {
+    margin: 0 12px;
+}
+
+.nav-menu {
+    position: relative;
+}
+
+.nav-menu-icon {
+    width: 20px;
+    margin: 0 24px 0 12px;
+    cursor: pointer;
+}
+
+.nav-menu:hover .subnav-menu {
+    display: block;
+}
+
+.subnav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -38px;
+    width: 250px;
+    height: 288px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #000;
+    border-radius: 4px;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu-item {
+    font-size: 20px;
+    margin: 8px;
+    padding: 4px;
+}
+
+.menu-item:hover {
+    background-color: #2374e1;
+    cursor: pointer;
+}
+
+.nav-acount {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: green;
+    text-align: center;
+}
+
+.google-logo {
+    width: 400px;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.img-logo {
+    width: 200px;
+}
+
+.search5 {
+    position: relative;
+    width: 600px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 18px;
+    padding: 0 16px;
+}
+
+.img-search {
+    position: absolute;
+    top: 7px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.search-text {
+    position: absolute;
+    left: 52px;
+    top: 7px;
+}
+
+.img-mic {
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    float: right;
+    width: 20px;
+}
+
+.app5 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.app5-item {
+    height: 80px;
+    margin: 0 24px;
+    text-align: center;
+    min-width: 75px;
+    cursor: pointer;
+
+}
+
+.img-item {
+    display: inline-block;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.item-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 auto;
+    line-height: 40px;
+    margin: 6px 0 8px 0;
+}
+
+.item-text {
+    padding-top: 8px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 160px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    color: blue;
+    padding: 0 8px;
+}
+
+.footer img {
+    display: block;
+    width: 20px;
+    margin-right: 4px;
+}
+
+/* Bài 6 */
+.container6 {
+    position: relative;
+    margin-bottom: 300px;
+    width: 850px;
+    height: 540px;
+}
+
+.cover {
+    position: relative;
+    width: 850px;
+    height: 400px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.cover-img {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+.cover-edit {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding: 4px;
+    background-color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0 0 2px #3a3b3c;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #3a3b3c;
+    position: absolute;
+    top: 371px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.avatar-img {
+    display: block;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.avatar-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 477px;
+    left: 146px;
+}
+
+.avatar-edit-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.me {
+    display: flex;
+    width: 850px;
+    height: 140px;
+    background-color: #242526;
+    color: #fff;
+}
+
+.me-introduce {
+    padding: 16px 0 0 210px;
+}
+
+.me-introduce-name {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.me-introduce-friends {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.me-list-img {
+    display: flex;
+    cursor: pointer;
+}
+
+.me-introduce-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3a3b3c;
+    margin-left: -4px;
+}
+
+.me-friends-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.me-add {
+    display: flex;
+}
+
+.me-add-new {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    background-color: #2374e1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    bottom: 24px;
+    right: 224px;
+    cursor: pointer;
+}
+
+.me-add-new-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #2374e1;
+    background-color: #fff;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 4px;
+}
+
+.me-add-new-text {
+    font-weight: 600;
+}
+
+.me-add-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a3b3c;
+    height: 40px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-left: 8px;
+    position: absolute;
+    bottom: 24px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.me-add-edit-icon {
+    margin-right: 4px;
+}

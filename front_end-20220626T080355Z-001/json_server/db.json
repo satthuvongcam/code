@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Kiến thức cơ bản, tổng quan cho người mới bắt đầu",
+      "descprition": "Kiến thức cơ bản dành cho người mới, không phân biệt bạn theo Front-end, Back-end hay Devops"
+    },
+    {
+      "name": "html css",
+      "descprition": "thiết kế web",
+      "id": 2
+    },
+    {
+      "name": "123",
+      "descprition": "123",
+      "id": 3
+    },
+    {
+      "name": "HTML CSS",
+      "descprition": "THIẾT KẾ WEB",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+.heading {
+    color: aqua;
+    text-align: center;
+}
+
+.text {
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+.text1 {
+    color: red;
+}
+
+.text2 {
+    font-size: 30px;
+    color: red;
+}
+
+.name {
+    text-transform: capitalize;
+}
+
+.image {
+    width: 173px;
+    height: 115px;
+}
+
+@font-face {
+    font-family: b;
+    src: url(./Open_Sans.zip);
+}
+
+.content {
+    font-family: b;
+    color: #fff;
+    background-color: #000;
+    border-collapse: collapse;
+}
+
+.section {
+    background-color: #000;
+    text-align: center;
+}
+
+.section-content {
+    padding: 16px 32px;
+}
+
+.section-heading {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.section-link {
+    color: #ccc;
+}
+
+.copyright {
+    background-color: blue;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}

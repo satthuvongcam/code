@@ -1,0 +1,53 @@
+STRING METHOD
+
+string[i]                           lấy kí tự trong string
+                                    chỉ có thể truy vấn, không thể ghi đè
+
+charCodeAt(i)                       tham chiếu kí tự thứ i với bảng Ascii
+
+slice(start, end)                   copy array, string và tạo ra array, string mới
+                                    start   điểm bắt đầu copy
+                                    end     điểm kết thúc copy
+
+indexOf(value, index)               value   giá trị tìm kiếm
+                                    index   vị trí bắt đầu tìm kiếm
+                                    trả về vị trí của kết quả đầu tiên tìm được
+
+lastIndexOf(value, index)           value   giá trị tìm kiếm
+                                    index   vị trí bắt đầu tìm kiếm
+                                    trả về vị trí của kết quả cuối cùng tìm được
+
+startsWith(value, index)            value   giá trị kiểm tra
+                                    index   vị trí bắt đầu kiểm tra
+                                    kiểm tra xem string có bắt đầu bằng value hay không
+
+endsWidth(value, index)             value   giá trị kiểm tra                                 
+                                    index   vị trí bắt đầu kiểm tra
+                                    kiểm tra xem string có kết thúc bằng value hay không
+
+fromCharCode(index)                 trả về kí tự ở vị trí index trên bảng Ascii
+
+includes(value,index)               value   giá trị kiểm tra                                 
+                                    index   vị trí bắt đầu kiểm tra               
+                                    kiểm tra sự tồn tại của value trong string và array
+
+toLowerCase                         tạo ra string mới viết thường
+
+toUpperCase                         tạo ra string mới viết hoa
+
+replace(oldString, newString)       tạo ra string mới có kí tự được thay thế
+                                    oldString   kí tự cũ muốn loại bỏ
+                                    newString   kí tự mới muốn thay vào oldString
+
+replace(/oldString/g, newString)    Muốn thay thế trên toàn bộ string 
+
+replace(/oldString/i, newString)    Thay thế bỏ qua chữ hoa chữ thường
+
+split(x)                            tạo ra array từ string
+                                    x là tín hiệu để cắt string
+
+trim()                              loại bỏ khoảng trống thừa trong strim
+
+repeat(number)                      tạo ra string mới lặp lại number lần
+
+

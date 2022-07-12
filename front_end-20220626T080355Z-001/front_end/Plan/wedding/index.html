@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#home" class="nav__item">Home</a>
+        <a href="#J&J" class="nav__item">Jane & Jone</a>
+        <a href="#thewedding" class="nav__item">Wedding</a>
+        <a href="#RSVP" class="nav__item">RSVP</a>
+    </div>
+
+    <!-- Banner -->
+    <div id="home" class="banner">
+        <div class="banner__img">
+            <img src="https://www.w3schools.com/w3images/wedding_couple.jpg" alt="">
+            <div class="banner__text">
+                <h2 class="banner__text-name">Jane & John</h2>
+                <p class="banner__text-desc">Are getting married</p>
+                <p class="banner__text-time">17.07.2017</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div id="J&J" class="content__section">
+            <h2 class="section__heading">Jane & John</h2>
+
+            <!-- Intro -->
+            <div class="content__intro">
+                <div class="intro__img">
+                    <img src="./assets/img/wedding_couple2.jpg" alt="">
+                </div>
+                <p class="intro__text">You all know us. And we all know you. We are getting married lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="RSVP" class="intro-info"><a href="#thewedding" class="intro__info-link">Wedding Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="intro__invited">
+            <div class="intro__invited-img">
+                <img src="	https://www.w3schools.com/w3images/flowers.jpg" alt="">
+            </div>
+            <div class="intro__invited-text">
+                <h2 class="invited-text-heading">You Are Invited</h2>
+                <p class="invited-text-desc">Of course..</p>
+            </div>
+        </div>
+
+        <div class="content__section different">
+            <div id="thewedding" class="section__heading">THE WEDDING</div>
+
+            <!-- Info  -->
+            <div class="content__info">
+                <div class="info__img">
+                    <img src="./assets/img/wedding_location.jpg" alt="">
+                </div>
+                <div class="info__wedding">
+                    <div class="wedding__when">
+                        <p class="wedding__heading">When</p>
+                        <p class="wedding__text">Wedding Ceremony - 2:00pm</p>
+                        <p class="wedding__text">Reception & Dinner - 5:00pm</p>
+                    </div>
+                    <div class="wedding__where">
+                        <p class="wedding__heading">Where</p>
+                        <p class="wedding__text">Some place, an address</p>
+                        <p class="wedding__text">Some where, some address</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content__section">
+            <div class="section__heading heading-text">HOPE YOU CAN MAKE IT!</div>
+
+            <p class="section__text">Kindly Respond By January, 2017</p>
+            <span class="section-btn">
+                <button type="button" class="section__button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    RSVP
+                </button>
+            </span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <span>Powered by <a href="">w3.css</a></span>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-container">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                  <h2 class="title__heading">Can You Come?</h2>
+                    <p class="title__text">We really hope you can make it.</p>
+              </h5>
+            </div>
+            <div class="modal-body">
+                <div class="body__input">
+                    <input type="text" placeholder="Name(s)">
+                </div>
+                <div class="body__text">
+                    <p class="">Sincerely, John & Jane</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-footer-button">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Going</button>
+                </div>
+                <div class="modal-footer-button modal-footer-button1">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Can't come</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+}
+
+.left {
+    color: black;
+    background-color: aqua;
+    width: 20%;
+}
+
+.center {
+    color: #fff;
+    background-color: black;
+    width: 60%;
+}
+
+.right {
+    color: black;
+    background-color: aqua;
+    width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+    .right {
+        display: none;
+    }
+    .center {
+        width: 80%;
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .left {
+        display: none;
+    }
+    .center {
+        width: 100%;
+    }
+}

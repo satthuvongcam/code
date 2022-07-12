@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: a;
+    src: url(/catering/assets/fonts/Playfair_Display.zip);
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 46px;
+    padding: 8px 16px;
+    background-color: #fff;
+    letter-spacing: 5px;
+}
+
+.header-left-text {
+    padding: 8px 16px;
+}
+
+.header-left-text:hover,
+.header-right-text:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-right-text {
+    padding: 8px 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    margin-top: 46px;
+}
+
+.banner-img {
+    display: block;
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 22px;
+    left: 24px;
+    font-size: 36px;
+    font-family: a;
+    letter-spacing: 5px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+/* About */
+.about {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0 84px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.about-item-img {
+    width: 48%;
+    padding: 12px 24px;
+}
+
+.about-item-img img {
+    width: 100%;
+}
+
+.about-content {
+    width: 50%;
+    text-align: center;
+    padding: 12px 24px;
+}
+
+.about-heading {
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-family: a;
+    margin-bottom: 40px;
+}
+
+.about-desc {
+    margin-bottom: 28px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-family: a;
+}
+
+.about-text {
+    text-align: left;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.about-text-desc {
+    color: #757575;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about-menu {
+    text-align: left;
+}
+
+.about-menu-name {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin: 10px 0 25px 0;
+}
+
+.about-menu-desc {
+    color: #757575;
+    font-size: 15px;
+    padding-bottom: 35px;
+}
+
+.about-item-img1 {
+    width: 48%;
+    padding: 12px 24px;
+}
+
+.about-item-img1 img {
+    width: 100%;
+}
+
+/* Contact */
+.contact {
+    padding: 64px 16px;
+}
+
+.contact-heading {
+    margin: 10px 0;
+    font-size: 36px;
+    font-family: a;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.contact-text {
+    margin: 40px 0 25px 0;
+    font-size: 15px;
+}
+
+.contact-address {
+    font-size: 18px;
+    color: #607d8b;
+    font-weight: 600;
+}
+
+.contact-address-desc {
+    margin: 25px 0;
+}
+
+.contact-info-input {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.contact-info-input input {
+    border: none;
+    width: 100%;
+    padding: 16px 8px;
+}
+
+.contact-btn {
+    border: none;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
+
+/* Footer */
+.footer {
+    background-color: #ccc;
+    padding: 47px 0;
+    text-align: center;
+}
+
+.footer-link {
+    color: #000;
+}
+
+.footer-link:hover {
+    color: #4CAF50;
+}

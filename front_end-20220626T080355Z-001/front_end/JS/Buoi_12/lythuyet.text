@@ -1,0 +1,58 @@
+PROMISE
+
+đồng bộ                         code chạy từ trên xuống dưới theo trình tự thông thường
+
+bất đồng bộ                     code không chạy theo trình tự
+
+setTimeOut(function(){          thực thi code 1 lần duy nhất sau khi kết thúc đếm ngược timer
+    //code                      bất đồng bộ
+}, timer)
+
+clearTimeOut(time)              xóa bỏ setTimeOut cụ thể
+
+setInterval(function(){         thực thi code mỗi khi kết thúc đếm ngược timer
+    //code                      bất đồng bộ
+}, timer)
+
+clearInterval(time)             xóa bỏ setInterval cụ thể
+
+=======================================================================================================
+
+callstack                       biên dịch code => ngôn ngữ máy tính 
+                                thực thi code sau khi biên dịch
+                                chỉ làm 1 việc tại 1 thời điểm
+
+
+web API / node API              xử lí các câu lệnh bất đồng bộ
+                                thường là gửi request về server
+                                response trả về được lưu trong callback-queue bất kể thành công hay thất bại
+
+
+callback-queue                  sắp xếp theo trình tự vào trước đi trước, vào sau đi sau
+
+
+event-loop                      kiểm tra callstack 
+                                khi nào callstack rỗng thì mới đưa callback-queue lên để thực thi
+                                chỉ khi nào file code chạy hết thì event-loop mới đưa callback-queue lên callstack
+
+
+promise                         lời hứa trả về kêt quả trong tương lai bất kể thành công hay thất bại
+new Promise(function(res,rej){  new Promise để tạo promise
+    if(dk){                     res     function trả data về nếu thành công
+        res(data)               rej     function trả err về nếu thất bại
+    } else {
+        rej(err)
+    }
+})
+
+p.then(function(data){          .then   nhận kết quả trả về của res()
+    //code
+}).catch(function(err){         .catch  nhật kết quả trả về của rej()
+    //code
+})
+                
+Promise.all([p1,p2...])         gom data của các promise về 1 chỗ
+                                trả về thành công khi tất cả promise con thành công
+                                trả về thất bại nếu có bất kì promise con nào thất bại
+
+

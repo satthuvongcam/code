@@ -1,0 +1,130 @@
+.J {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.i {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.x {
+    color: aqua;
+}
+
+.iA {
+    color: red;
+}
+
+.u {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.b {
+    font-weight: 700;
+}
+
+.bL {
+    font-weight: 500;
+}
+
+.content {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+    font-style: italic;
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+    font-style: italic;
+}
+
+.bA {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.left {
+    text-align: left;
+    font-style: italic;
+    color: orange;
+}
+
+.ct {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.iK {
+    color: red;
+    font-weight: 700;
+}
+
+.a {
+    color: red;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.a1 {
+    color: yellow;
+    text-decoration: underline yellow;
+}
+
+.b {
+    color: deepskyblue;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.b1 {
+    color: red;
+    font-style: italic;
+    text-decoration: underline red;
+}
+
+.c {
+    color: orange;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.c1 {
+    color: deepskyblue;
+    font-style: italic;
+    text-decoration: underline deepskyblue;
+}
+
+.d {
+    color: yellow;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.d1 {
+    color: black;
+    text-decoration: underline black;
+}
+
+.abc {
+    border-collapse: collapse;
+}
+
+.l {
+    color: red;
+    text-decoration: line-through red;
+    font-style: italic;
+}
+
+.m {
+    color: green;
+    text-decoration: underline green;
+}
+
+

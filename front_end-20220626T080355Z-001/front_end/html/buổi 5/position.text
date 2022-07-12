@@ -1,0 +1,21 @@
+position                    dùng để điều chỉnh vị trí thẻ HTML bằng 4 thuộc tính top, left, right, bottom
+    relative                top, left, right, bottom căn chỉnh lấy gốc là vị trí mặc định ban đầu
+
+    absolute                điều chỉnh vị trí theo quan hệ cha con 
+                            top, left, right, bottom căn chỉnh lấy gốc là cạnh của thẻ cha có position
+                            nếu thẻ chả không có position thì căn chỉnh theo cạnh màn hình
+                            thay đổi khi màn hình thay đổi
+                                      
+
+    fixed                   cố định vị trí thẻ HTML trên màn hình     
+                            top, left, right, bottom căn chỉnh lấy gốc là cạnh màn hình
+
+    sticky                  cố định tạm thời
+                            kết hợp giữa fixed và relative
+                            top, left, right, bottom căn chỉnh lấy gốc là cạnh màn hình
+                            top, left, right, bottom hoạt động như là giới hạn di chuyển của sticky
+                            có thẻ cha cố định trên thẻ cha
+                            không có thẻ cha cố định trên cả body
+        
+    static                  hủy position
+                            vô hiệu top, left, right, bottom

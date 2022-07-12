@@ -1,0 +1,90 @@
+.text {
+    color: white;
+    background-color: black;
+}
+
+.text2 {
+    color: blue;
+    background-color: red;
+}
+
+.table1 {
+    border: 2px solid green;
+    text-align: center;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.table2 {
+    border-collapse: collapse;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.text3 {
+    font-size: 24px;
+}
+
+.text4 {
+    font-weight: 700;
+}
+
+.text5 {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.text6 {
+    border-bottom: 2px solid #000;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.text7 {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.u {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.i {
+    font-style: italic;
+}
+
+.o {
+    text-decoration: overline;
+}
+
+.l {
+    text-decoration: line-through;
+} 
+
+p {
+    font-size: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.b {
+    font-weight: 1000;
+}
+
+.center {
+    font-size: 12px;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    text-transform: capitalize;
+}

@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+    .about-item {
+        display: block;
+    }
+    
+    .about-item-img {
+        display: none;
+    }
+
+    .about-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-item-img1 {
+        width: 100%;
+    }
+
+    .header-right {
+        display: none;
+    }
+}

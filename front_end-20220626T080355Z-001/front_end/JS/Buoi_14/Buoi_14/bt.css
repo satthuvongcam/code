@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo__list {
+    background-color: aqua;
+    height: 100vh;
+    padding: 32px;
+}
+
+.todo__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.nav__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__left span {
+    font-size: 25px;
+}
+
+.nav__right-btn {
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav__right-quantity {
+    padding: 1px 4px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.todo__list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo__item {
+    background-color: white;
+    height: 400px;
+    width: 30%;
+    padding: 8px;
+}
+
+.todo__item button {
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.todo__item-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.todo__item-text {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.todo__item-text:hover {
+    opacity: 1;
+}
+
+#text, #edit-text {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#priority, #edit-priority {
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+#lesson, #time, #edit-lesson, #edit-time {
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#lesson, #edit-lesson {
+    margin: 16px 0;
+}

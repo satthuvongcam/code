@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    width: 50%;
+    min-height: 600px;
+    color: #fff;
+    background-color: #000;
+}
+
+.logo-content {
+    padding: 74px 16px 0 16px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.menu-list {
+    margin: 138px 0 64px 0;
+}
+
+.menu-item-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px;
+    width: 100%;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hover-blue-grey:hover {
+    background-color: #607d8b;
+}
+
+.hover-teal:hover {
+    background-color: #009688;
+}
+
+.hover-dark-grey:hover {
+    background-color: #616161;
+}
+
+.hover-brown:hover {
+    background-color: #795548;
+}
+
+/* About */
+.about {
+    width: 50%;
+    min-height: 600px;
+    color: #fff;
+    background-color: #607d8b;
+}
+
+.about-content {
+    padding: 74px 16px 64px 16px;
+    text-align: center;
+}
+
+.about-img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin: 26px 0 16px 0;
+}
+
+.about-info {
+    padding: 12px 24px;
+    text-align: left;
+}
+
+.about-info-text {
+    margin: 15px 0;
+}
+
+/* Work */
+.work {
+    width: 50%;
+    min-height: 800px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.work-text1 {
+    padding: 74px 0 79px 0;
+}
+
+.work-heading {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project-list {
+    display: flex;
+}
+
+.project-item {
+    width: 50%;
+}
+
+.project-item-img {
+    width: 100%;
+}
+
+.work-text {
+    padding: 25px 0;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Resume */
+.resume {
+    width: 50%;
+    min-height: 800px;
+    color: #fff;
+    background-color: #3f51b5;
+    padding: 0 16px;
+}
+
+.resume-content {
+    padding: 64px 0;    
+}
+
+.resume-heading {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.resume-desc {
+    font-size: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.tbody {
+    padding: 0 16px;
+}
+
+.table {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+}
+
+.line-one {
+    width: 100%;
+}
+
+.line-one th {
+    padding: 8px;
+    text-align: left;
+}
+
+tr td {
+    padding: 8px;
+    border: none;
+}
+
+.white td {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Swing */
+.swing {
+    min-height: 600px;
+    width: 50%;
+    color: #fff;
+    background-color: #616161;
+    text-align: center;
+    padding: 74px 16px 0 16px;
+}
+
+.swing-text {
+    margin-top: 138px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.swing-text-item {
+    margin: 15px 0;
+}
+
+/* Contact */
+.contact {
+    min-height: 600px;
+    width: 50%;
+    color: #fff;
+    background-color: #009688;
+    padding: 0 16px;
+}
+
+.contact-content {
+    padding: 64px 24px;
+}
+
+.contact-desc {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.contact-info {
+    color: #000;
+    background-color: #fff;
+    padding: 32px 16px;
+}
+
+.contact-info-item {
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-name {
+    margin-bottom: 8px;
+}
+
+.item-input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+}
+
+.contact-info-btn {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #009688;
+    border: none;
+}
+
+.btn {
+    text-align: right;
+}
+
+.contact-info-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+} 
+
+/* Footer */
+.footer {
+    color: #fff;
+    background-color: #000;
+    padding: 31px 16px;
+    font-size: 15px;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .content {
+        display: block;
+    }
+
+    .logo, .about, .work, .resume, .swing, .contact {
+        width: 100%;
+    }
+
+    .project-list {
+        display: block;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+
+    .hidden {
+        display: none;
+    }
+}

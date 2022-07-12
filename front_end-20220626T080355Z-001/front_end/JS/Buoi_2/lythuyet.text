@@ -1,0 +1,51 @@
+Toán tử 
+    NaN                             không phải là số (not a number) 
+                                    đã ép dữ liệu về number nhưng không tính toán được
+
+    typeof                          hàm kiểm tra kiểu dữ liệu
+
+    +                               number + number tính bình thường
+                                    còn lại ghép chuỗi
+
+    - * / %                         tự động ép kiểu dữ liệu về dạng số
+    %                               phép toán lấy phần dư
+
+    parseInt                        hàm ép kiểu dữ liệu từ string về number
+
+    toString                        ép kiểu number về string
+
+    >                               có thể so sánh chuỗi
+    >=
+    <
+    <=
+
+    =                               gán giá trị
+    
+    ==                              so sánh bằng (so về giá trị)
+    ===                             so sánh bằng (so về giá trị và kiểu dữ liệu)
+
+    !                               phép toán nghịch đảo
+
+    !==                             khác
+
+    **                              phép toán mũ, căn
+    
+    number++                        dùng number trước ròi tăng 1 đơn vị
+    ++number                        tăng 1 đơn vị trước rồi dùng number sau
+    number--                        dùng number trước ròi giảm 1 đơn vị
+    --number                        giảm 1 đơn vị trước rồi dùng number sau
+
+    ||                              điều kiện hoặc
+                                    true nếu có ít nhất 1 điều kiện true
+                                    false khi tất cả false
+
+    &&                              điều kiện và
+                                    true khi tất cả điều kiện true
+                                    false khi có ít nhất 1 điều kiện false
+
+    toán tử 3 ngôi                              
+
+    (điều kiện) ? kq nếu true : kq nếu false
+
+    true // số dương // số âm // string có data // array // object
+    false // số 0 // '' // NULL // NaN // undefined

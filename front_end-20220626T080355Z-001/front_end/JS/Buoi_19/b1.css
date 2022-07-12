@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add__user {
+    margin: 32px 32px 0 32px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list__data {
+    padding: 32px;
+}
+
+.list__data div {
+    padding: 12px;
+    border: 1px solid #000;
+    margin: 8px 0;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}

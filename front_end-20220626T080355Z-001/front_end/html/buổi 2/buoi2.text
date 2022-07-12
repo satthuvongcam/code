@@ -1,0 +1,15 @@
+ul / li
+    ul                          tạo danh sách (unordered list)
+                                các phần tử trong danh sách không quan trọng thứ tự
+
+    li                          thêm các phần tử vào danh sách   
+
+ol / li                         tạo danh sách (ordered list)
+                                các phần tử trong danh sách được đánh số thứ tự
+
+    li                          thêm các phần tử vào danh sách
+
+
+div                             đóng gói code tạo ra các khôi giao diện
+                                căn chỉnh giao diện
+

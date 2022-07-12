@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Bài 1 */
+/* .container {
+    border-right: 10px solid blue;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;   
+    margin: 0 8px;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    margin: 8px 8px;
+    height: 32px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.content-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    margin: 0 8px;
+    width: 20%;
+    height: 100px;
+}
+
+.content-item1 {
+    width: 60%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    margin: 8px 8px;
+    height: 32px;
+} */
+
+/* Bài 2 */
+/* .container {
+    width: 100%;
+    height: 800px;
+}
+
+.son-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.son1 {
+    background-color: aqua;
+    width: 50%;
+    height: 300px;
+    margin-right: 16px;
+}
+
+.son1-container {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.son1-logo {
+    height: 32px;
+    background-color: #ccc;
+    padding: 8px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.son1-nav {
+    height: 32px;
+    background-color: #ccc;
+    margin-bottom: 4px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.son1-header {
+    height: 40px;
+    background-color: #ccc;
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.son1-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.content-sidebar {
+    width: 30%;
+    height: 100px;
+    margin-right: 8px;
+    background-color: #ccc;
+    line-height: 100px;
+    text-align: center;
+}
+
+.content-body {
+    width: 70%;
+    height: 100px;
+    background-color: #ccc;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+.son1-footer {
+    height: 32px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 32px;
+}
+
+.son2 {
+    background-color: aqua;
+    width: 50%;
+    height: 300px;
+}
+
+.son2-container {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.son2-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccc;
+    height: 32px;
+    margin-bottom: 4px;
+}
+
+.son2-logo {
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.son2-nav {
+    margin-right: 48px;
+}
+
+.son2-header {
+    background-color: #ccc;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.son2-intro {
+    background-color: #ccc;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.son2-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.content-box {
+    line-height: 100px;
+    text-align: center;
+    background-color: #ccc;
+    width: 32%;
+}
+
+.son2-footer {
+    height: 32px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 32px;
+}
+
+.son-section {
+    display: flex;
+}
+
+.son3 {
+    background-color: aqua;
+    width: 50%;
+    height: 300px;
+    margin-right: 16px;
+}
+
+
+.son3-container {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 0 20px;
+    width: 100%;
+}
+
+
+.son3-logo {
+    width: 100%;
+    height: 32px;
+    background-color: #ccc;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+}
+
+
+.son3-content {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin: 8px 0;
+}
+
+.content-nav {
+    width: 40%;
+    height: 200px;
+    font-weight: 700;
+    line-height: 200px;
+    text-align: center;
+    margin-right: 8px;
+    background-color: #ccc;
+}
+
+.content {
+    width: 70%;
+}
+
+.content-header {
+    background-color: #ccc;
+    height: 80px;
+    margin-bottom: 8px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.content-body1 {
+    height: 112px;
+    background-color: #ccc;
+    line-height: 112px;
+    text-align: center;
+}
+
+.son3-footer {
+    height: 32px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 32px;
+}
+
+.son4 {
+    background-color: aqua;
+    width: 50%;
+    height: 300px;
+}
+
+.son4-container {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.son4-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccc;
+    height: 32px;
+    margin-bottom: 4px;
+}
+
+.header-logo {
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.header-nav {
+    margin-right: 48px;
+}
+
+.son4-content {
+    height: 140px;
+    width: 100%;
+}
+
+.content-box4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 15%;
+    height: 30px;
+    background-color: #ccc;
+    margin-bottom: 4px;
+}
+
+.box2 {
+    width: 15%;
+    height: 30px;
+    background-color: #ccc;
+    margin-bottom: 4px;
+}
+
+.box3 {
+    width: 15%;
+    height: 30px;
+    background-color: #ccc;
+    margin-bottom: 4px;
+}
+
+.box4 {
+    width: 15%;
+    height: 30px;
+    background-color: #ccc;
+    margin-bottom: 4px;
+}
+
+.content-Lbox {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.Lbox {
+    width: 32%;
+    height: 50px;
+    background-color: #ccc;
+    line-height: 50px;
+    text-align: center;
+}
+
+.son4-footer {
+    height: 32px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 32px;
+} */
+
+/* Bài 3 */
+/* .logo {
+    width: 100%;
+    height: 60px;
+    background-color: #ccc;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.nav-item {
+    background-color: #ccc;
+    width: 20%;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    height: 224px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.body-item1 {
+    width: 50%;
+    background-color: #ccc;
+    margin-right: 24px;
+    line-height: 200px;
+}
+
+.body-item2 {
+    width: 50%;
+}
+
+.body-item-link1 {
+    background-color: #ccc;
+    height: 80px;
+    margin-bottom: 24px;
+    line-height: 80px;
+}
+
+.body-item-link2 {
+    background-color: #ccc;
+    height: 120px;
+    line-height: 120px;
+}
+
+.copyright {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ccc;
+} */
+
+/* Bài 4 */
+.container {
+    border: 2px solid black;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.container-banner {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: aquamarine;
+    border-bottom: 2px solid black;
+}
+
+.container-nav {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: aquamarine;
+    border-bottom: 2px solid black;
+}
+
+.container-body {
+    display: flex;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.body-content {
+    width: 50%;
+    line-height: 200px;
+    background-color: aquamarine;
+    border-right: 2px solid black;
+}
+
+.body-item {
+    width: 50%;
+    height: 200px;
+    padding: 8px 12px;
+    background-color: aquamarine;
+    border-bottom: 2px solid black;
+}
+
+.body-contact {
+    display: flex;
+    height: 88px;
+    line-height: 88px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.contact-picture {
+    width: 30%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin-right: 8px;
+}
+
+.contact-about {
+    width: 70%;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.body-history {
+    height: 88px;
+    line-height: 88px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.container-footer {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/* Bài 5 */
+.container5 {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nav5 {
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(95, 94, 94);
+    margin-bottom: 12px;
+}
+
+.header5 {
+    display: flex;
+    line-height: 70px;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 12px;
+}
+
+.header5-logo {
+    width: 30%;
+    background-color: rgb(95, 94, 94);
+    margin-right: 12px;
+}
+
+.header5-content {
+    width: 70%;
+    background-color: rgb(95, 94, 94);
+}
+
+.body5 {
+    display: flex;
+    height: 352px;
+    margin-bottom: 12px;
+}
+
+.body5-content {
+    width: 70%;
+    line-height: 352px;
+    background-color: rgb(95, 94, 94);
+    margin-right: 12px;
+}
+
+.body5-list {
+    width: 30%;
+    align-content: space-between;
+}
+
+.body5-list-item {
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(95, 94, 94);
+    margin-bottom: 12px;
+}
+
+.body5-list-item:last-child {
+    margin-bottom: -12px;
+}
+
+.footer5 {
+    height: 40px;
+    background-color: rgb(95, 94, 94);
+    line-height: 40px;
+}
+
+/* Bài 6 */
+.container6 {
+    border-top: 1px solid black;
+}
+
+.header6 {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 32px;
+}
+
+.header6-nav {
+    display: flex;
+}
+
+.nav-logo {
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-list {
+    display: flex;
+    font-weight: 600;
+}
+
+.list-item {
+    margin: 4px 12px 0 0;
+}
+
+.header6-info {
+    display: flex;
+}
+
+.info-contact {
+    margin: 4px 12px 0 0;
+}
+
+.info-log-in {
+    margin: 4px 12px 0 0;
+}
+
+.info-sign-up {
+    color: #fff;
+    background-color: rgb(3, 108, 3);
+    padding: 8px;
+}
+
+.body6-content {
+    height: 220px;
+    color: #fff;
+    background-color: rgb(3, 3, 140);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-heading {
+    padding-top: 32px;
+}
+
+.content-description {
+    margin: 24px 0;
+    opacity: 0.8;
+}
+
+.content-request-btn {
+    color: #fff;
+    background-color: rgb(3, 108, 3);
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+}
+
+
+.body6-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-enterprise {
+    text-align: center;
+}
+
+.enterprise-logo {
+    font-size: 60px;
+}
+
+.info-enterprise-quantity {
+    margin: 8px 0 16px 0;
+    font-weight: 700;
+}
+
+.info-enterprise-des {
+    font-size: 12px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+

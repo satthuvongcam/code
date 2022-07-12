@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Bài 1 */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#RESULT {
+    width: 400px;
+    height: 95px;
+    background-color: #ccc;
+    color: #000;
+    padding: 8px;
+    text-align: right;
+}
+
+.calculator {
+    width: 400px;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calculator__add {
+    display: flex;
+    padding: 8px;
+}
+
+.calculator__add-left {
+    width: 70%;
+}
+
+.calculator__add-number {
+    margin-bottom: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.calculator__add-number button {
+    width: 30%;
+    height: 40px;
+}
+
+.col__half button{
+    width: 48%;
+}
+
+.calculator__add-right {
+    width: 30%;
+    margin-left: 8px;
+}
+
+.calculator__add-expression {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+.calculator__add-expression button {
+    width: 48%;
+    height: 40px;
+}
+
+.col__full button {
+    width: 100%;
+} */
+
+/* Bài 3 */
+/* .form__content {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form__header {
+    text-align: center;
+}
+
+.form__user, .form__password {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px 8px;
+    outline: none;
+}
+
+.form__btn {
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+} */
+
+/* Bài 6 */
+.add {    
+    padding: 0 32px;
+}
+
+.add__product, .edit__product {
+    background-color: #ccc;
+    margin: 16px 0;
+    padding: 8px;
+    display: flex;
+    /* width: 400px; */
+}
+
+.add__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add__product, .edit__product {
+    width: 48%;
+}
+
+.add__product input, .edit__product input {
+    width: 80%;
+    margin-right: 4px;
+    padding: 8px 8px;
+}
+
+.add__product button, .edit__product button{
+    width: 20%;
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.list__product {
+    padding-left: 32px;
+    width: 700px;
+}
+
+.list__product-header {
+    margin-bottom: 8px;
+}
+
+.product__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__product-heading {
+    font-weight: bold;
+}
+
+.list__product-quantity {
+    color: red;
+    font-weight: bold;
+}
+
+.list__product-info {
+    margin-top: 16px;
+}
+
+.list__product-name {
+    width: 40%;
+}
+
+.list__product-edit, .list__product-delete {
+    width: 25%;
+}
+
+.item__product {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item__product > div {
+    flex: 1;
+}
+
+.item__product-edit button, .item__product-delete button {
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}

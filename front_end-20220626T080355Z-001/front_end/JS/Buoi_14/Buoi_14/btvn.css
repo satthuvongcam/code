@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    margin-bottom: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+}
+
+.btnList {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+.list {
+    margin-left: 32px;
+    border: none;
+}
+
+.list tr {
+    border: 1px solid #000;
+}
+
+.list tr th, .node__list1 tr td {
+    padding: 0 8px;
+    border-right: 1px solid #000;
+    
+}
+
+.app__time-day, .app__time-month{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 0;
+}
